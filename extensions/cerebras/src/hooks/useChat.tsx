@@ -65,7 +65,7 @@ export function useChat<T extends Chat>(props: T[]): ChatHook {
       const config = getConfiguration();
       return {
         apiKey: { "api-key": config.apiKey },
-        params: { "api-version": "2023-06-01-preview" },
+        params: { "api-version": "2025-04-01-preview" },
       };
     };
 
